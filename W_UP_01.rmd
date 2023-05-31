@@ -59,6 +59,11 @@ According to the plot, if you compare the two box plots, based on position the s
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+According to the numerical results, there is a huge difference between the two positions. Every single number on the skill position is higher than the the line position. For example, by looking at the mean, the mean for the line position 17.12500 while the mean for the skill position is 49.72727. With this said, its clear the skill position do more push ups.  
 
 ## Inferential Results
 
